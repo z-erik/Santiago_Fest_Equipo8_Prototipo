@@ -1,208 +1,289 @@
-
 <!DOCTYPE html>
 <html lang="es-MX">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Equipo 8</title>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-<!-- NAV BAR - SANDRA -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Transporte</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Hospedaje</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Line Up</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
+    <!-- NAV BAR - SANDRA -->
+    <nav class="navbar navbar-expand-lg santiagofest-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">SantiagoFest</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Navegacion principal -->
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Transporte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Hospedaje</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Line Up</a>
+                    </li>
+                </ul>
+                <!-- Blog y registro -->
+                <ul class="navbar-nav ms-3 d-flex flex-row">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <span class="vr mx-2"></span>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Registro</a>
+                    </li>
+                </ul>
 
-    
+                <!-- Boton de tickets -->
+                <button class="btn btn-outline-success" type="submit">Tickets</button>
+            </div>
+        </div>
+    </nav>
 
 
 
 
-    
 
 
 
 
-<!-- PARTE DEL TÍTULO Y MAPA DE CHILE - TIKY -->
-    <div class="container">
+
+
+
+    <!-- PARTE DEL TÍTULO Y MAPA DE CHILE - TIKY -->
+    <div class="container orange-bg">
         <div class="row">
-            <div class="col-6 orange-bg">
-                 <h1 class="shadow-sm">Santiago Fest</h1>
-                 <span class="white-text">¿Preparado para vivir la música?</span>
-                 <span>Aquí encontrarás las mejores indicaciones para vivir este evento al máximo</span>
-                </div>
-            <div class="col-6">  <img src="https://www.shutterstock.com/image-vector/chile-hand-drawn-vector-map-600nw-1850462833.jpg">  </div>
-        </div>
-    </div>
-<!-- FIN PARTE TIKY -->
-
-
-<!-- PARTE Explora las diferentes funciones RO-->
-    <div class="explora">
-        <h2>Explora las diferentes funciones que tenemos para ti </h2>
-        
-        <img src="">  </div>
-    </div>
-<!-- FIN PARTE Ro -->
-
-
-<!-- PARTE DEL CARRUSEL DE IMAGENES -->
- 
-<div class="container my-5">
-    <div id="carruselSantiago" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carruselSantiago" data-bs-slide-to="0" class="active" aria-current="true"></button>
-            <button type="button" data-bs-target="#carruselSantiago" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#carruselSantiago" data-bs-slide-to="2"></button>
-        </div>
-        <div class="carousel-inner shadow-lg">
-            <div class="carousel-item active">
-                <img src="./images/img/v1_330.png" class="d-block w-100" alt="Evento 1">
-                <div class="carousel-caption d-none d-md-block custom-caption">
-                    <h5>Vive la Música</h5>
-                    <p>Los mejores artistas nacionales e internacionales.</p>
-                </div>
+            <div class="col-6 m-2">
+                <h1 class="row shadow-sm text-center">Santiago Fest</h1>
+                <span class="row white-text px-3">¿Preparado para vivir la música?</span>
+                <span class="row white-text px-3">Aquí encontrarás las mejores indicaciones para vivir este evento al
+                    máximo</span>
+                <button type="button" class=" row btn btn-outline-info  boton-mapa">Mapa del Evento</button>
             </div>
-            <div class="carousel-item">
-                <img src="" class="d-block w-100" alt="Evento 2">
-                <div class="carousel-caption d-none d-md-block custom-caption">
-                    <h5>Los mejores artistas</h5>
-                    <p>En el s</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://via.placeholder.com/1200x500?text=Santiago+Fest+3" class="d-block w-100" alt="Evento 3">
-                <div class="carousel-caption d-none d-md-block custom-caption">
-                    <h5>Cultura y Arte</h5>
-                    <p>Espacios reservados</p>
-                </div>
+            <div class="col-6 lila-bg text-center"> <img class="mapa-chile"
+                    src="https://www.shutterstock.com/image-vector/chile-hand-drawn-vector-map-600nw-1850462833.jpg">
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carruselSantiago" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carruselSantiago" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Siguiente</span>
-        </button>
     </div>
-</div>
-            
-
-
-
-<!-- FIN PARTE CARRUSEL {CAIXBA} -->
-
-
-
-<!-- Parte Como llegar -->
-
-<h2>Como llegar</h2>
-<section>
-
-<div class="card-group">
-  
-
-<div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Llegaste desde el aeropuerto?
-esta es la ruta para llegar al recinto!</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-
-
-  
-
-<div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Llegaste desde el aeropuerto?
-esta es la ruta para llegar al recinto!</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
+    <!-- FIN PARTE TIKY -->
 
 
 
 
 
-</section>
+    <!-- EXPLORA LAS DIFERENTES FUNCIONES Ro-->
+    <section id="explora" class="py-5 bg-light">
+        <div class="container">
+            <!-- Encabezado centrado -->
+            <div class="text-center mb-4">
+                <h2 class="fw-bold">Explora las diferentes funciones que tenemos para ti</h2>
+                <p class="text-muted lead">
+                    En <strong>SantiagoFestForDummies</strong> queremos que llegues al festival sin complicarte: rutas,
+                    hospedaje y estacionamientos al alcance de un clic.
+                </p>
+            </div>
 
+            <!-- Tarjetas en 3 columnas -->
+            <div class="row g-4">
+                <!-- Tarjeta 1: Encuentra rutas -->
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm feature-card text-center">
+                        <div class="p-3">
+                            <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?q=80&w=600&auto=format&fit=crop"
+                                class="rounded img-fluid feature-image" alt="Rutas y transporte">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title mb-2">Encuentra rutas</h5>
+                            <p class="card-text text-muted">
+                                Consulta opciones de metro, autobuses y ciclovías para llegar rápido y seguro al
+                                recinto.
+                            </p>
+                            <a href="#como-llegar" class="btn btn-outline-primary">Ver rutas</a>
+                        </div>
+                    </div>
+                </div>
 
+                <!-- Tarjeta 2: Hoteles cercanos -->
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm feature-card text-center">
+                        <div class="p-3">
+                            <img src="https://images.unsplash.com/photo-1560066984-138dadb4c00f?q=80&w=600&auto=format&fit=crop"
+                                class="rounded img-fluid feature-image" alt="Hoteles cercanos">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title mb-2">Hoteles cercanos</h5>
+                            <p class="card-text text-muted">
+                                Encuentra hoteles y hostales cercanos al festival y reserva según tu presupuesto.
+                            </p>
+                            <a href="#hospedaje" class="btn btn-outline-primary">Ver hospedaje</a>
+                        </div>
+                    </div>
+                </div>
 
-<!--PARTE FINAL, REDES -->
-
-    <div id="contacto">
-        <h3>Redes</h3>
-        <p>Visitanos en nuestras redes sociales:D</p>
-        
-        <div class="Blog">
-            <h5>Blog</h5>
-            <p>“El festival estuvo increíble: excelente organización, sonido de primera y un ambiente súper vibrante. 
-                Descubrí bandas nuevas y disfruté muchísimo a mis favoritas.
-                 ¡Definitivamente volvería el próximo año!”</p>
+                <!-- Tarjeta 3: Encuentra estacionamientos -->
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm feature-card text-center">
+                        <div class="p-3">
+                            <img src="https://images.unsplash.com/photo-1552519507-7b8c6cd5d6b3?q=80&w=600&auto=format&fit=crop"
+                                class="rounded img-fluid feature-image" alt="Estacionamientos">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title mb-2">Encuentra estacionamientos</h5>
+                            <p class="card-text text-muted">
+                                Ubica estacionamientos cercanos, tarifas y accesos recomendados para tu auto.
+                            </p>
+                            <a href="#estacionamientos" class="btn btn-outline-primary">Ver opciones</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="Commmunity">
-            <h5>Commmunity</h5>
-            <ul class="Commmunity"></ul>
-                <li>Events</li>
-                <li>Blog</li>
-                <li>Podcast</li>
-                <li>Invite a friend</li>
+    </section>
+
+    <!-- FIN PARTE Ro -->
+
+    <!-- PARTE DEL CARRUSEL DE IMAGENES {CAIXBA} -->
+    <h1 class="textFest">Santiago Fest 2026 featuring:</h1>
+    <h2 class="textFest2">¡Te presentamos los artistas que nos visitan este año!</h2>
+    <div class="container my-5">
+        <div id="carruselSantiago" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carruselSantiago" data-bs-slide-to="0" class="active"
+                    aria-current="true"></button>
+                <button type="button" data-bs-target="#carruselSantiago" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carruselSantiago" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner shadow-lg">
+                <div class="carousel-item active">
+                    <img src="https://laz.mx/_next/image?url=https%3A%2F%2Feditorial.laz.mx%2Fwp-content%2Fuploads%2F2023%2F02%2Fvalentin-elizald.png&w=3840&q=75"
+                        class="d-block w-100" alt="Evento 1">
+                    <div class="carousel-caption d-none d-md-block custom-caption">
+                        <h5>Vive la Música</h5>
+                        <p>Los mejores artistas nacionales e internacionales.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://laverdad.com.mx/wp-content/uploads/2025/11/lupillochalino.jpg"
+                        class="d-block w-100" alt="Evento 2">
+                    <div class="carousel-caption d-none d-md-block custom-caption">
+                        <h5>Los mejores artistas</h5>
+                        <p>De todLatinoámerica</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://s2.elespanol.com/2024/07/22/quincemil/vivir/musica/872422894_247953115_1024x576.jpg"
+                        class="d-block w-100" alt="Evento 3">
+                    <div class="carousel-caption d-none d-md-block custom-caption">
+                        <h5>Cultura y Arte</h5>
+                        <p>Espacios reservados</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carruselSantiago" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carruselSantiago" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
         </div>
-        <div class="Socials">
-            <h5>Socials</h5>
-            <ul class="Socials">
-                <li>Discors</li>
-                <li>Instagram</li>
-                <li>Twitter</li>
-                <li>Facebook</li>
-            </ul>
-        </div>    
     </div>
-    <div id="footer">
-        <p>&copy 2022 Company Name. All rights reserved</p>
+    <!-- FIN PARTE CARRUSEL {CAIXBA} -->
+
+
+
+    <!-- Parte Como llegar -->
+
+    <h2>Como llegar</h2>
+    <section>
+
+        <div class="card-group">
+
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://ibb.co/gZfFWj0t"><img src="https://i.ibb.co/9H1348xy/organizaci-n-zonal-creada-para-los-recorridos-de-transporte-v0-d9nrvcglzs9e1.webp" class="card-img-top" alt="imagen">
+                <div class="card-body">
+                    <h5 class="card-title">Las siguientes rutas te ayudaran a llegar al destino centro de
+                        convenciones Riesco!</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                        of the card’s content.</p>
+
+
+                </div>
+            </div>
+
+
+
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Espacio_Riesco.jpg/1600px-Espacio_Riesco.jpg?20120525143946"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Centro de Convenciones - Espacio Riesco</h5>
+                    <p class="card-text">Dirección: Av. El Salto 5000, 8440000 Huechuraba, Región Metropolitana,
+                        Chile</p>
+
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://i.ibb.co/rRnmFFMY/Screenshot-2025-12-17-115005.png" alt="Screenshot 2025 12 17 115005"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Llegaste desde el aeropuerto?
+                        esta es la ruta para llegar al recinto!</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                        of the card’s content.</p>
+
+                </div>
+            </div>
+
+
+
+
+    </section>
+
+
+
+    <!--PARTE FINAL, REDES -->
+    <div class="container text-center">
+        <div class="row align-items-start">
+            <div class="col">
+                <h2>Redes</h2>
+                <p>Visitanos en nuestras redes sociales:D</p>
+            </div>
+            <div class="col">
+                One of three columns
+            </div>
+            <div class="col">
+                One of three columns
+            </div>
+            <div class="col">
+                One of three columns
+            </div>
+        </div>
     </div>
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+    </script>
 
 </body>
+
 </html>

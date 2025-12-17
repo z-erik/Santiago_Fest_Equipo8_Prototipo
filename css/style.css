@@ -1,11 +1,45 @@
+/* Estilos navbar */
+.santiagofest-navbar {
+    background-color: #FF8800;
+}
+
+.santiagofest-navbar .nav-link:hover {
+    text
+}
+
+
+/*Estilos de Tiky*/
 h1{
     color:#6155f5;
-    font-size: large;
+    font-size: 1rem;
 }
 .orange-bg{
     background-color: #FF8800;
 }
+.lila-bg{
+    background-color: #AAB5C3;
+    border-radius: 20px;
+}
+.white-text{
+    color:white;
+    font-size: 1em;
+}
+
+.boton-mapa{
+    margin-left: 30%;
+}
+/*Fin Estilos de Tiky*/
+
+
+/* //////////////////////////Sección Explora  Ro*/
+
+/* //////////////////////////Fin Sección Explora  Ro*/
+
 /* INICIO style para el carrusel de Santiago Fest */
+.h1{
+    color: darkred;
+}
+
 .carousel-inner {
     border-radius: 20px;
     overflow: hidden;
