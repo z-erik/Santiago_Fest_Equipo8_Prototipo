@@ -1,3 +1,37 @@
 h1{
-    color:purple;
+    color:#6155f5;
+    font-size: large;
 }
+.orange-bg{
+    background-color: #FF8800;
+}
+/* INICIO style para el carrusel de Santiago Fest */
+.carousel-inner {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.custom-caption {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 50%;
+    padding: 20px;
+}
+
+/* FIN del style del Carrusel */
+
+
+
+
+/*Redes y footer*/

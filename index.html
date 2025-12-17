@@ -11,44 +11,37 @@
 </head>
 <body>
 <!-- NAV BAR - SANDRA -->
-<div class="navbar"></div>
- <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Transporte</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Hospedaje</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Line Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </div>
-  </div>
-</nav>
- 
+  </nav>
 
     
 
@@ -56,7 +49,6 @@
 
 
     
-<!-- PARTE Explora las diferentes funciones RO-->
 
 
 
@@ -64,21 +56,69 @@
 <!-- PARTE DEL TÍTULO Y MAPA DE CHILE - TIKY -->
     <div class="container">
         <div class="row">
-            <div class="col-6"> <h1>Santiago Fest</h1></div>
+            <div class="col-6 orange-bg">
+                 <h1 class="shadow-sm">Santiago Fest</h1>
+                 <span class="white-text">¿Preparado para vivir la música?</span>
+                 <span>Aquí encontrarás las mejores indicaciones para vivir este evento al máximo</span>
+                </div>
             <div class="col-6">  <img src="https://www.shutterstock.com/image-vector/chile-hand-drawn-vector-map-600nw-1850462833.jpg">  </div>
         </div>
     </div>
 <!-- FIN PARTE TIKY -->
 
 
+<!-- PARTE Explora las diferentes funciones RO-->
+    <div class="explora">
+        <h2>Explora las diferentes funciones que tenemos para ti </h2>
+        
+        <img src="">  </div>
+    </div>
+<!-- FIN PARTE Ro -->
+
+
 <!-- PARTE DEL CARRUSEL DE IMAGENES -->
  
 <div class="container my-5">
-    <div id="carruselSantiago" class="carousel slide carousel-fade" data-bs-ride="carousel"></div>
-    <div>
-        
+    <div id="carruselSantiago" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carruselSantiago" data-bs-slide-to="0" class="active" aria-current="true"></button>
+            <button type="button" data-bs-target="#carruselSantiago" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carruselSantiago" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner shadow-lg">
+            <div class="carousel-item active">
+                <img src="./images/img/v1_330.png" class="d-block w-100" alt="Evento 1">
+                <div class="carousel-caption d-none d-md-block custom-caption">
+                    <h5>Vive la Música</h5>
+                    <p>Los mejores artistas nacionales e internacionales.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="" class="d-block w-100" alt="Evento 2">
+                <div class="carousel-caption d-none d-md-block custom-caption">
+                    <h5>Los mejores artistas</h5>
+                    <p>En el s</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/1200x500?text=Santiago+Fest+3" class="d-block w-100" alt="Evento 3">
+                <div class="carousel-caption d-none d-md-block custom-caption">
+                    <h5>Cultura y Arte</h5>
+                    <p>Espacios reservados</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carruselSantiago" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carruselSantiago" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
     </div>
 </div>
+            
 
 
 
@@ -92,17 +132,33 @@
 <section>
 
 <div class="card-group">
-  <div class="card">
-    <div class="card-body">
-      Tarjeta 1
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-body">
-      Tarjeta 2
-    </div>
+  
+
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Llegaste desde el aeropuerto?
+esta es la ruta para llegar al recinto!</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+
+    <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
+
+
+  
+
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Llegaste desde el aeropuerto?
+esta es la ruta para llegar al recinto!</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+
 
 
 
@@ -112,7 +168,7 @@
 
 <!--PARTE FINAL, REDES -->
 
-    <div id="footer">
+    <div id="contacto">
         <h3>Redes</h3>
         <p>Visitanos en nuestras redes sociales:D</p>
         
@@ -124,17 +180,25 @@
         </div>
         <div class="Commmunity">
             <h5>Commmunity</h5>
-            <ul class="commmunity"></ul>
+            <ul class="Commmunity"></ul>
                 <li>Events</li>
                 <li>Blog</li>
                 <li>Podcast</li>
                 <li>Invite a friend</li>
         </div>
         <div class="Socials">
-            
-
-        </div>
-        
+            <h5>Socials</h5>
+            <ul class="Socials">
+                <li>Discors</li>
+                <li>Instagram</li>
+                <li>Twitter</li>
+                <li>Facebook</li>
+            </ul>
+        </div>    
+    </div>
+    <div id="footer">
+        <p>&copy 2022 Company Name. All rights reserved</p>
+    </div>
 
 
 
