@@ -224,6 +224,15 @@ h1{
   color: var(--secondary-color);
 }
 
+.card {
+  background-color: var(--bg-color);
+  border-color: #bb86dd;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card:hover{
+  transform: translateY(-4px);
+}
 
 .card .card-title {
   color: var(--secondary-color);
