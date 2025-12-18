@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Equipo 8</title>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
@@ -16,7 +17,7 @@
     <!-- NAV BAR - SANDRA -->
     <nav class="navbar navbar-expand-lg santiagofest-navbar">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">SantiagoFest</a>
+            <a class="navbar-brand" href="#"><img src="img/logo2.svg" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -29,17 +30,17 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Transporte</a>
+                        <a class="nav-link" href="#explora">Explora</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Hospedaje</a>
+                        <a class="nav-link" aria-current="page" href="#lineup">Line up</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link aria-current="page" href="#">Line Up</a>
+                        <a class="nav-link aria-current="page" href="#comollegar">Cómo llegar</a>
                     </li>
                 </ul>
                 <!-- Blog y registro -->
-                <ul class="navbar-nav ms-3 d-flex flex-row">
+                <ul class="navbar-nav ms-3 d-flex flex-row me-2">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Blog</a>
                     </li>
@@ -55,44 +56,30 @@
         </div>
     </nav>
 
-
-
-
-
-
-
-
-
-
-
     <!-- PARTE DEL TÍTULO Y MAPA DE CHILE - TIKY -->
-    <div class="container orange-bg">
-        <div class="row">
-            <div class="col-6 text-center">
-                <h1 class="row shadow-sm text-center">Santiago Fest</h1>
-                <span class="row white-text px-3">¿Preparado para vivir la música?</span>
-                <span class="row white-text px-3">Aquí encontrarás las mejores indicaciones para vivir este evento al
-                    máximo</span>
-                <button type="button" class="row btn btn-outline-info boton-mapa">Mapa del Evento</button>
-            </div>
-            <div class="col-6 lila-bg text-center"> <img class="mapa-chile"
-                    src="https://www.shutterstock.com/image-vector/chile-hand-drawn-vector-map-600nw-1850462833.jpg">
+    <section class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <img class="logo" src="img/logo1.svg">
+                    <h1 class="white text mb-2">¿Preparado para vivir la música?</h1>
+                    <p class="white-text mb-4"> Aquí encontrarás las mejores indicaciones para vivir este evento al máximo</p>
+                    <button type="button" class="btn btn-outline-info mt-0 boton-mapa">Mapa del Evento
+                    </button>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- FIN PARTE TIKY -->
 
 
-
-
-
     <!-- EXPLORA LAS DIFERENTES FUNCIONES Ro-->
-    <section id="explora" class="py-5 bg-light">
+    <section id="explora" class="py-5">
         <div class="container">
             <!-- Encabezado centrado -->
-            <div class="text-center mb-4">
-                <h2 class="fw-bold">Explora las diferentes funciones que tenemos para ti</h2>
-                <p class="text-muted lead">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold explora-title">Explora las diferentes funciones que tenemos para ti</h2>
+                <p class="lead explora-description">
                     En <strong>SantiagoFestForDummies</strong> queremos que llegues al festival sin complicarte: rutas,
                     hospedaje y estacionamientos al alcance de un clic.
                 </p>
@@ -104,12 +91,12 @@
                 <div class="col-12 col-md-4">
                     <div class="card h-100 shadow-sm feature-card text-center">
                         <div class="p-3">
-                            <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?q=80&w=600&auto=format&fit=crop"
+                            <img src="img/metropurple.png"
                                 class="rounded img-fluid feature-image" alt="Rutas y transporte">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title mb-2">Encuentra rutas</h5>
-                            <p class="card-text text-muted">
+                            <h5 class="card-title mb-2 feature-card-title">Encuentra rutas</h5>
+                            <p class="card-text feature-card-description">
                                 Consulta opciones de metro, autobuses y ciclovías para llegar rápido y seguro al
                                 recinto.
                             </p>
@@ -122,12 +109,12 @@
                 <div class="col-12 col-md-4">
                     <div class="card h-100 shadow-sm feature-card text-center">
                         <div class="p-3">
-                            <img src="https://images.unsplash.com/photo-1560066984-138dadb4c00f?q=80&w=600&auto=format&fit=crop"
+                            <img src="img/hotelespurple.png"
                                 class="rounded img-fluid feature-image" alt="Hoteles cercanos">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title mb-2">Hoteles cercanos</h5>
-                            <p class="card-text text-muted">
+                            <h5 class="card-title mb-2 feature-card-title">Hoteles cercanos</h5>
+                            <p class="card-text feature-card-description">
                                 Encuentra hoteles y hostales cercanos al festival y reserva según tu presupuesto.
                             </p>
                             <a href="#hospedaje" class="btn btn-outline-primary">Ver hospedaje</a>
@@ -139,12 +126,12 @@
                 <div class="col-12 col-md-4">
                     <div class="card h-100 shadow-sm feature-card text-center">
                         <div class="p-3">
-                            <img src="https://images.unsplash.com/photo-1552519507-7b8c6cd5d6b3?q=80&w=600&auto=format&fit=crop"
+                            <img src="img/estacionamientopurple.png"
                                 class="rounded img-fluid feature-image" alt="Estacionamientos">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title mb-2">Encuentra estacionamientos</h5>
-                            <p class="card-text text-muted">
+                            <h5 class="card-title mb-2 feature-card-title">Encuentra estacionamientos</h5>
+                            <p class="card-text feature-card-description">
                                 Ubica estacionamientos cercanos, tarifas y accesos recomendados para tu auto.
                             </p>
                             <a href="#estacionamientos" class="btn btn-outline-primary">Ver opciones</a>
@@ -158,7 +145,7 @@
     <!-- FIN PARTE Ro -->
 
     <!-- PARTE DEL CARRUSEL DE IMAGENES {CAIXBA} -->
-    <div class="container text-center my-5">
+    <div class="container text-center my-5" id="lineup">
         <h1 class="textFest">Santiago Fest 2026 <span class="featuring">featuring:</span></h1>
         <h2 class="textFest2">¡Te presentamos los artistas que nos visitan este año!</h2>
         <div id="carruselSantiago" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -170,7 +157,7 @@
             </div>
             <div class="carousel-inner shadow-lg">
                 <div class="carousel-item active">
-                    <img src="https://laz.mx/_next/image?url=https%3A%2F%2Feditorial.laz.mx%2Fwp-content%2Fuploads%2F2023%2F02%2Fvalentin-elizald.png&w=3840&q=75"
+                    <img src="img/valentinorange.png"
                         class="d-block w-100" alt="Evento 1">
                     <div class="carousel-caption d-none d-md-block custom-caption">
                         <h5>Vive la Música</h5>
@@ -178,7 +165,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="https://laverdad.com.mx/wp-content/uploads/2025/11/lupillochalino.jpg"
+                    <img src="img/chalinoorange.png"
                         class="d-block w-100" alt="Evento 2">
                     <div class="carousel-caption d-none d-md-block custom-caption">
                         <h5>Los mejores artistas</h5>
@@ -186,7 +173,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="https://s2.elespanol.com/2024/07/22/quincemil/vivir/musica/872422894_247953115_1024x576.jpg"
+                    <img src="img/monorange.png"
                         class="d-block w-100" alt="Evento 3">
                     <div class="carousel-caption d-none d-md-block custom-caption">
                         <h5>Cultura y Arte</h5>
@@ -210,102 +197,93 @@
 
     <!-- Parte Como llegar -->
 
-    <h2 class="h2-comollegar" >Como llegar</h2>
-    <section>
+    <h2 class="h2-comollegar text-center mb-5" >Cómo llegar</h2>
+    <section class="container my-5" id="comollegar">
+        <div class="row justify-content-center g-4">
 
-        <div class="card-group">
-
-
-            <div class="card" style="width: 18rem;">
-                <img src="https://i.ibb.co/9H1348xy/organizaci-n-zonal-creada-para-los-recorridos-de-transporte-v0-d9nrvcglzs9e1.webp" class="card-img-top" alt="imagen">
-                <div class="card-body">
-                    <h5 class="card-title">Las siguientes rutas te ayudaran a llegar al destino centro de
-                        convenciones Riesco!</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                        of the card’s content.</p>
-
-
-                </div>
-            </div>
-
-
-
-
-            <div class="card" style="width: 18rem;">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Espacio_Riesco.jpg/1600px-Espacio_Riesco.jpg?20120525143946"
-                    class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Centro de Convenciones - Espacio Riesco</h5>
-                    <p class="card-text">Dirección: Av. El Salto 5000, 8440000 Huechuraba, Región Metropolitana,
-                        Chile</p>
-
-                </div>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-                <img src="https://i.ibb.co/rRnmFFMY/Screenshot-2025-12-17-115005.png" alt="Screenshot 2025 12 17 115005"
-                    class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Llegaste desde el aeropuerto?
-                        esta es la ruta para llegar al recinto!</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                        of the card’s content.</p>
-
-                </div>
-            </div>
-
-
-
-
-    </section>
-
-
-
-    <!--PARTE FINAL, REDES -->
-    <div id="final">
-    <div class="container text-center">
-        <div class="row align-items-start">
-            <div class="col">
-                <h2>Redes</h2>
-                <p>Visitanos en nuestras redes sociales:D</p>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            <div class="col">
-                <h2>Blog</h2>
-                <p>“El festival estuvo increíble: excelente organización, sonido de primera y un ambiente súpervibrante.
-                    Descubrí bandas nuevas y disfruté muchísimo a mis favoritas.
-                    ¡Definitivamente volvería el próximo año!”</p>
-            </div>
-            <div class="col">
-                <h2>Community</h2>
-                 <ul>
-                    <li>Events</li>
-                    <li>Blog</li>
-                    <li>Podcast</li>
-                    <li>Invite a friend</li>
-                 </ul>
-            </div>
-            <div class="col">
-                <h2>Socials</h2>
-                <ul>
-                    <li>DIscord</li>
-                    <li>Instagram</li>
-                    <li>Twitter</li>
-                    <li>Facebook</li>
-                </ul>
-            </div>
+    <div class="col-12 col-md-4 d-flex align-items-stretch">
+      <div class="card text-center h-100">
+        <img src="img/rutaspurple.png" 
+             class="card-img-top" alt="imagen">
+        <div class="card-body">
+          <h5 class="card-title">Rutas de llegada</h5>
+          <p class="card-text">Explora las rutas que te ayudaran a llegar al destino centro de convenciones Riesco.</p>
         </div>
+      </div>
     </div>
-    <div id="footer">
-        <p>&copy 2022 Company Name. All rights reserved</p>
-    </div>
-    </div>
-    
 
+    <div class="col-12 col-md-4 d-flex align-items-stretch">
+      <div class="card text-center h-100">
+        <img src="img/recintopurple.png" 
+             class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nuestra sede</h5>
+          <p class="card-text">Centro de Convenciones: Espacio Riesco<br>Dirección: Av. El Salto 5000, 8440000 Huechuraba, Región Metropolitana, Chile.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-4 d-flex align-items-stretch">
+      <div class="card text-center h-100">
+        <img src="img/aeropuertopurple.png" 
+             class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ruta desde aereopuerto</h5>
+          <p class="card-text">¿Nos visitas de fuera de la ciudad? Esta es la ruta para llegar al recinto.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!--PARTE FINAL, REDES -->
+<footer id="final" class="pt-5">
+  <div class="container">
+    <div class="row g-4">
+
+      <div class="col-12 col-md-3">
+        <h5>Redes</h5>
+        <ul class="list-unstyled">
+          <li>Discord</li>
+          <li>Instagram</li>
+          <li>Twitter</li>
+          <li>Facebook</li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-md-3">
+        <h5>Blog</h5>
+        <p>“El festival estuvo increíble: excelente organización, sonido de primera y un ambiente súper vibrante.
+          Descubrí bandas nuevas y disfruté muchísimo a mis favoritas.
+          ¡Definitivamente volvería el próximo año!”</p>
+      </div>
+
+      <div class="col-12 col-md-3">
+        <h5>Community</h5>
+        <ul class="list-unstyled">
+          <li>Events</li>
+          <li>Blog</li>
+          <li>Podcast</li>
+          <li>Invite a friend</li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-md-3">
+        <h5>Contacto</h5>
+        <p>info@santiago-fest.com</p>
+        <p>+56 9 1234 5678</p>
+      </div>
+
+    </div>
+
+    <div class="text-center mt-4 pb-3 border-top">
+      <p class="mb-0">&copy; 2025 Santiago Fest. Todos los derechos reservados</p>
+    </div>
+  </div>
+</footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
