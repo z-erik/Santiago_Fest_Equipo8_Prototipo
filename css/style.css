@@ -52,7 +52,7 @@ body{
 /*Estilos de Tiky*/
 .hero-section {
   position: relative;
-  background-image: url("../public/img/mainbg.png");
+  background-image: url("mainbg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
