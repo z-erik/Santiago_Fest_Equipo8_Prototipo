@@ -38,15 +38,23 @@ body{
     font-weight: 400;
 }
 
-.btn-outline-success {
+.santiagofest-navbar .btn-outline-success {
     color: black;
     border-color: black;
+    transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
 }
 
-.btn-outline-success:hover{
+.santiagofest-navbar .btn-outline-success:hover{
     background-color: white;
     border-color: white;
     color: #FF8800;
+}
+
+.santiagofest-navbar .btn-outline-success:active,
+.santiagofest-navbar .btn-outline-success:focus-visible{
+  background-color: var(--secondary-color);
+  border-color: transparent;
+  color: var(--bg-color);
 }
 
 /*Estilos de Tiky*/
